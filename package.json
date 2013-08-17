@@ -3,7 +3,7 @@
 	"private" : true,
 	"version" : "0.1.0",
 	"author" : "John Heenan <j@johnheenan.org>",
-	"description" : "Simple test with Ajax",
+	"description" : "Simple test app with Ajax",
 	"engines" : {
 		"node" : ">=0.10"
 	},
