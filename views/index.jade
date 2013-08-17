@@ -1,0 +1,17 @@
+!!!5
+html(lang='en')
+	head
+		title #{title}
+		link(rel='stylesheet', href='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css')
+	body
+		.container
+			h2.featurette-heading Enter your search:
+			.alert(id='formAlert', style='visibility:hidden;')
+			form
+				fieldset
+					.form-group
+						input.form-control(type='text', placeholder='Search', id='searchForm')
+					button.btn.btn-default(type='submit') Search
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js')
+		script(src='//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js')
+		script(src='/js/search.js')
